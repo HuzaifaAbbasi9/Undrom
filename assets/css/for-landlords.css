@@ -1,0 +1,379 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.main-section, .section-bg-img, .hero-section {
+    overflow: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.main-section::-webkit-scrollbar, .section-bg-img::-webkit-scrollbar, .hero-section ::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar .nav-link.active, .font-weight-bold {
+    font-weight: 600 !important;
+}
+
+.hero-section {
+    padding: 40px 0px;
+    position: relative;
+}
+
+.padding-left {
+    padding-left: 55px;
+    z-index: 2;
+}
+
+.navigatin-details {
+    font-size: 14px;
+    font-weight: 400;
+    color: #111B1E;
+}
+
+.main-page-heading {
+    font-size: 90px;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    color: #009DFF;
+    line-height: 1.2;
+}
+
+.header_wave {
+    width: 51%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero-png {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 60%;
+}
+
+.down-arrow {
+    width: 48px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.main-section {
+    padding: 80px 0px;
+    position: relative;
+}
+
+.right-element {
+    position: absolute;
+    right: 0;
+    width: 17%;
+    top: 0;
+}
+
+.wraper-outer {
+    position: relative;
+}
+
+.text-ele {
+    background-color: #EFF0F2;
+    width: 60%;
+    position: relative;
+}
+
+.text-ele.text-el-left {
+    padding: 70px 16% 97px 60px;
+}
+
+.text-ele.text-el-right {
+    padding: 70px 115px 115px 12%;
+}
+
+.left-img.overlap::before {
+    right: 0;
+}
+
+.right-img.overlap::before {
+    left: 0;
+}
+
+.overlap::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 19.9%;
+    height: 100%;
+    background-color: rgba(16, 141, 243, 0.9);
+    z-index: 1;
+}
+
+.main-heading {
+    font-weight: 700;
+    color: #111B1E;
+    font-size: 25px;
+}
+
+.heading {
+    font-family: "Roboto Condensed";
+}
+
+.exclusive-hr {
+    width: 15%;
+    height: 2px;
+    background-color: #757b7d;
+    margin-top: 12px;
+}
+
+.main-para {
+    width: 85%;
+    color: #111B1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-left: 20px;
+}
+
+.img-wraper {
+    position: absolute;
+    top: 73px;
+    width: 50%;
+}
+
+.img-wraper.right-img {
+    right: 0;
+}
+
+.img-wraper.left-img {
+    left: 0;
+}
+
+.left-element {
+    position: absolute;
+    left: 0;
+    width: 15%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.learn-more-btn {
+    padding: 5px 50px;
+    width: 76%;
+    border-radius: 50px;
+    border: 2px solid #009DFF;
+    color: #009DFF;
+    font-size: 25px;
+    background-color: #ffffff;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.section-bg-img {
+    background-image: url("../../images/for-lanlord/wave_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EFF0F2;
+}
+.section-padding-bottom {
+    padding-bottom: 200px;
+}
+.text-ele.bg-white.text-el-left {
+    padding: 70px 16% 110px 60px;
+}
+.text-ele.bg-white::before {
+    /*height: 82.2%;*/
+}
+.main-section.section-padding-bottom-1 {
+    padding-bottom: 113px;
+}
+.text-ele.section-2-text.text-el-right {
+    padding: 70px 115px 154px 12%;
+}
+.text-ele.section-2-text.text-el-right::before {
+    width: 16.68%;
+}
+.text-ele.next-generation::before {
+    bottom: 7.5%;
+    height: 79.5%;
+}
+.text-ele.premium-rents {
+    padding: 70px 115px 85px 12%;
+}
+section.contact {
+    padding-top: 80px;
+    position: relative;
+}
+.side_element {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8.8%;
+}
+.contact-inner {
+    padding: 80px 0px;
+    background-image: url("../../images/for-lanlord/cta_wave.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.contact-btn {
+    width: 25%;
+    padding: 5px 0px;
+    font-size: 22px;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    border-radius: 40px;
+    background-color: #009DFF;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.contact-btn i {
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+
+@media(max-width: 1200px) {
+    .main-page-heading {
+        font-size: 78px;
+    }
+    .text-ele.text-el-right, .text-ele.section-2-text.text-el-right {
+        padding: 45px 45px 90px 12%;
+    }
+    .text-ele.section-2-text.text-el-right {
+        padding-bottom: 150px;
+    }
+    .main-para {
+        font-size: 21px;
+    }
+    .contact-inner {
+        padding: 50px 0px;
+    }
+}
+@media(max-width: 1060px) {
+    .footer-text {
+        white-space: unset;
+    }
+    .text-ele.section-2-text.text-el-right {
+        padding-bottom: 90px;
+    }
+    .contact-btn {
+        width: 35%;
+    }
+    .main-section.section-padding-bottom-1 {
+        padding-bottom: 0;
+    }
+    .main-page-heading {
+        font-size: 65px;
+    }
+    .down-arrow {
+        width: 35px;
+    }
+}
+@media(max-width: 992px) {
+    .hero-png {
+        position: inherit;
+        width: auto;
+    }
+    section.navbar-outer {
+        position: relative;
+        z-index: 1;
+    }
+    .navbar-outer.backgorund-nav-color {
+        padding-bottom: 50px;
+    }
+    .hide-form-mob {
+        display: none;
+    }
+    .hero-section {
+        padding-top: 0px;
+        margin-top: -73px;
+    }
+    .header_wave {
+        margin-top: -83px;
+    }
+    .text-ele, .overlap::before {
+        width: 90%;
+    }
+    .img-wraper {
+        position: inherit;
+        top: 0px;
+        width: 100%;
+    }
+    .overlap::before {
+        height: 100px;
+        top: 0;
+    }
+    .down-arrow {
+        width: 50px;
+        position: absolute;
+        top: 50%;
+        transform: translate(0px, -50%);
+    }
+    .text-ele.text-el-left, .text-ele.text-el-right {
+        padding: 70px 60px;
+    }
+    .section-padding-bottom {
+        padding-bottom: 130px;
+    }
+    .section-bg-img .main-section {
+        padding-top: 180px;
+    }
+    .section-bg-img {
+        padding-bottom: 180px;
+    }
+    section.main-section.pt-3 {
+        padding-bottom: 0px;
+    }
+    .overlap::before {
+        background-color: rgba(16, 141, 243, 0.7);
+    }
+    .contact-inner {
+        padding: 0;
+    }
+    .contact-btn {
+        width: 100%;
+    }
+    section.contact {
+        padding: 80px 30px;
+        background-image: url("../../images/for-lanlord/cta_wave.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #EFF0F2;
+    }
+}
+@media(max-width: 500px) {
+    .padding-left {
+        padding-left: 15px;
+    }
+    .hero-section .main-page-heading {
+        width: 85%;
+    }
+    .main-page-heading {
+        font-size: 55px;
+    }
+    .text-ele.text-el-left, .text-ele.text-el-right, .text-ele.bg-white.text-el-left, .text-ele.section-2-text.text-el-right {
+        padding: 40px;
+    }
+    .overlap::before {
+        height: 50px;
+    }
+    .learn-more-btn {
+        width: 100%;
+    }
+    .section-bg-img .main-section {
+        padding-top: 115px;
+        padding-bottom: 0px;
+    }
+    .section-bg-img {
+        padding-bottom: 115px;
+    }
+    section.contact .main-heading.heading br {
+        display: none;
+    }
+}
